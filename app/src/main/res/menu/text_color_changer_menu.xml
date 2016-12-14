@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/file"
+        android:title="@string/str_text_color"
+        app:showAsAction="always">
+        <!-- "color" submenu -->
+        <menu>
+            <item
+                android:id="@+id/id_violet"
+                android:title="@string/str_violet"
+                android:icon="@color/colorViolet"/>
+            <item
+                android:id="@+id/id_indigo"
+                android:title="@string/str_indigo"
+                android:icon="@color/colorIndigo"/>
+            <item
+                android:id="@+id/id_blue"
+                android:title="@string/str_blue"
+                android:icon="@color/colorBlue"/>
+            <item
+                android:id="@+id/id_green"
+                android:title="@string/str_green"
+                android:icon="@color/colorGreen"/>
+            <item
+                android:id="@+id/id_yellow"
+                android:title="@string/str_yellow"
+                android:icon="@color/colorYellow"/>
+            <item
+                android:id="@+id/id_orange"
+                android:title="@string/str_orange"
+                android:icon="@color/colorOrange"/>
+            <item
+                android:id="@+id/id_red"
+                android:title="@string/str_red"
+                android:icon="@color/colorRed"/>
+        </menu>
+    </item>
+</menu>
